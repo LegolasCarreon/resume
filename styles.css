@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.p1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(45deg, #232fbf, #69175f);
+    padding: 50px;
+}
+h2{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+h2 span{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.group{
+    position: relative;
+    display: grid;
+    gap: 40px;
+    width: 100%;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 20px;
+}
+.group .image{
+    position: relative;
+    width: 100%;
+}
+.group .image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.group p{
+    color: #fff;
+    font-size: 1.5em;
+}
+.bottom{
+    position: relative;
+    display: grid;
+    margin: 50px 50px 0;
+    gap: 40px;
+    grid-template-columns: 2fr 3fr;
+}
+.bottom .left_side{
+    margin-top: 50px;
+}
+h4{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #fff;
+    background: #231fbf;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+.contactinfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+.contactinfo li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.contactinfo li .icon{
+    color: #231fbf;
+}
+.contactinfo li .text{
+    color: #555;
+}
+.language{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+.language .languagebox{
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
+}
+.language .languagebox p{
+    color: #333;
+}
+.language .languagebox .value{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #eee;
+}
+.language .languagebox .value::before{
+    content: '';
+    position: absolute;
+    width: var(--i);
+    height: 100%;
+    background: #231fbf;
+}
+.adjstmargin{
+    margin-top: -10px;
+}
+.education{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+.edugroup{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.edugroup p:nth-child(1){
+    font-weight: 600;
+
+}
+.edugroup b{
+    font-weight: 600;
+    color: #231fbf;
+}
